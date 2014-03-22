@@ -1,0 +1,43 @@
+buildscript {
+    repositories {
+        maven { url "http://repo.spring.io/libs-snapshot" }
+        mavenLocal()
+    }
+    dependencies {
+        classpath("org.springframework.boot:spring-boot-gradle-plugin:1.0.0.RC5")
+    }
+}
+
+apply plugin: 'java'
+apply plugin: 'eclipse'
+apply plugin: 'idea'
+apply plugin: 'spring-boot'
+apply from: 'http://plugins.jasoft.fi/vaadin.plugin'
+
+project.version = '0.1.0'
+
+jar {
+    baseName = 'muhuru-bay-dashboard'
+    version =  project.version
+	vaadin.addon.title = 'Muhuru Bay Dashboard'
+}
+
+repositories {
+    mavenCentral()
+    maven { url "http://repo.spring.io/libs-snapshot" }
+	maven { url "http://maven.vaadin.com/vaadin-addons"}
+}
+
+dependencies {
+    compile("org.springframework.boot:spring-boot-starter-web")
+    compile("org.springframework.boot:spring-boot-starter-actuator")
+	compile("com.vaadin:vaadin-server:7.1.12")
+	compile("com.vaadin:vaadin-client-compiled:7.1.12")
+	compile("com.vaadin:vaadin-themes:7.1.12")
+	compile("ru.xpoft.vaadin:spring-vaadin-integration:2.0.2")
+    testCompile("junit:junit")
+}
+
+task wrapper(type: Wrapper) {
+    gradleVersion = '1.11'
+}
