@@ -35,6 +35,7 @@ dependencies {
 	compile("com.vaadin:vaadin-client-compiled:7.1.12")
 	compile("com.vaadin:vaadin-themes:7.1.12")
 	compile("ru.xpoft.vaadin:spring-vaadin-integration:2.0.2")
+	compile("org.vaadin.addons:dcharts-widget:1.7.0")
     testCompile("junit:junit")
 }
 
