@@ -1,4 +1,4 @@
-package org.vaadin.springbootexample;
+package org.mbmg;
 
 import org.springframework.stereotype.Component;
 
@@ -9,5 +9,6 @@ public class MyService {
 
     public String sayHello() {
         return "It works! (" + count++ + ")";
+        
     }
 }

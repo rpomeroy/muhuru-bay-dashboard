@@ -1,4 +1,4 @@
-package org.vaadin.springbootexample;
+package org.mbmg;
 
 import com.vaadin.ui.UI;
 
