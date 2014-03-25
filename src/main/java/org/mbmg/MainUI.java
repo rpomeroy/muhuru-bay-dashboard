@@ -11,7 +11,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 @Component
-public class MyVaadinUI extends UI implements Button.ClickListener{
+public class MainUI extends UI implements Button.ClickListener{
     
 	private static final long serialVersionUID = 1L;
 

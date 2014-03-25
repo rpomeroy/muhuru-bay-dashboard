@@ -19,7 +19,7 @@ public class SpringBootVaadin extends SpringBootServletInitializer {
     @Bean 
     @Scope("prototype")
     public UI ui() {
-        return new MyVaadinUI();
+        return new MainUI();
     }
 
     @Bean
