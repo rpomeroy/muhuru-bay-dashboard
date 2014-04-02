@@ -17,3 +17,4 @@ or on Windows
 	
 *Editors Note: I develop on a Mac so my examples will be Unix oriented*
 
+Run `gradlew tasks` to view all the tasks.  To run the app simply type `gradlew run` and the app will launch locally at <http://localhost:9000>
