@@ -27,14 +27,3 @@ In Eclipse there appears to be at least two convienent ways to debug the app (at
 * Using M2E - Simply select the Project in the Package Explorer and [Right Click] Debug As -> Spring Boot Application.
 
 Not yet how this gets modifed for running devmode and superdevmode (more to come)
-
-
-#### TODO
-
-* Keep fleshing out this readme
-* Integrate the open source charts support from <https://vaadin.com/directory#addon/freecode-charts-and-d3-wrapper:vaadin>
-* Setup CI in the cloud (Cloudbees or equivalent)
-* Automate deployment to our EC2 instance
-* Move to Java 1.8
-* Build the app!
-* Another line
