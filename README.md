@@ -26,4 +26,4 @@ Run `gradlew tasks` to view all the tasks.  To run the app simply type `gradlew 
 * Setup CI in the cloud (Cloudbees or equivalent)
 * Automate deployment to our EC2 instance
 * Move to Java 1.8
-* Build the app!
+* Build the app!Run `gradlew tasks` to view all the tasks.  To run the app simply type `gradlew run` and the app will launch locally at <http://localhost:9000>
